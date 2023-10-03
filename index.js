@@ -16,6 +16,13 @@ return 'No can do.';
 function ternaryCheckCity(){
   // Write your code here!
 }
+let message;
+  message = "";
+
+  city === "NYC" ? message = "Ok, sounds good." : message = "No go.";
+
+  return message;
+}git 
 
 function switchOnCharmFromTip(){
   // Write your code here!
