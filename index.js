@@ -22,8 +22,12 @@ let message;
   city === "NYC" ? message = "Ok, sounds good." : message = "No go.";
 
   return message;
-}git 
+}
 
 function switchOnCharmFromTip(){
   // Write your code here!
+}
+switch (tip) { case 'generous': return 'Thank you so much.'; break; 
+
+  case 'not as generous': return 'Thank you.'; break; default: return 'Bye.'; break;}
 }
